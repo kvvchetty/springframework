@@ -6,7 +6,7 @@ stages {
    	stage('Preparation') { // for display purposes
       	// Get code from a GitHub repository
       	steps {
-            git branch: 'mvc_rest', credentialsId: 'kvvchetty@outlook.com', 
+            git branch: 'mvc_rest', credentialsId: 'kvvchetty', 
 		url: 'https://github.com/kvvchetty/springframework.git'
       	}
       	// Get the Maven tool.
