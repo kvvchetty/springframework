@@ -1,7 +1,6 @@
 node {
    def mvnHome
 
-stages {
 
    	stage('Preparation') { // for display purposes
       	// Get code from a GitHub repository
@@ -27,7 +26,5 @@ stages {
       	junit '**/target/surefire-reports/TEST-*.xml'
       	archive 'target/*.jar'
    	}
-
-    }
 
 }
