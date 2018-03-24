@@ -4,10 +4,7 @@ node {
 
    	stage('Preparation') { // for display purposes
       	// Get code from a GitHub repository
-      	steps {
-            git branch: 'mvc_rest', credentialsId: 'kvvchetty', 
-		url: 'https://github.com/kvvchetty/springframework.git'
-      	}
+	git url: 'https://github.com/kvvchetty/springframework.git'
       	// Get the Maven tool.
       	// ** NOTE: This 'maven_3.3.9' Maven tool must be configured
       	// **       in the global configuration.           
