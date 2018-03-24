@@ -30,8 +30,4 @@ stages {
 
     }
 
-    post {
-        always {
-       	cleanWs()
-        }
 }
