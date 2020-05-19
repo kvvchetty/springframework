@@ -1,4 +1,4 @@
-package com.ryan.practice.rest;
+package eu.kielczewski.example.controller;
 
 import java.io.IOException;
 import java.nio.file.Files;
